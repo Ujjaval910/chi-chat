@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #2d2d4d;
+  font-family: "Roboto", sans-serif;
+}
+section.chi_section {
+  width: 800px;
+  max-width: 90%;
+  background: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.logoSec {
+  padding: 20px;
+  background: #0e1524;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoSec h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: snow;
+  margin-left: 10px;
+}
+.message__area {
+  height: 500px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 40px;
+  background-color: #1f1f3f;
+}
+textarea {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background: #0e1524;
+  color: snow;
+}
+
+.message {
+  padding: 0 20px 20px 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  max-width: 300px;
+  position: relative;
+}
+.incoming {
+  background: #8f8be8;
+  color: #fff;
+}
+.outgoing {
+  background: #e9eafd;
+  color: rgb(50, 44, 44);
+  margin-left: auto;
+}
+.message h4 {
+  position: relative;
+  top: -20px;
+  left: -20px;
+  color: snow;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.usernameEl {
+  color: snow;
+}
